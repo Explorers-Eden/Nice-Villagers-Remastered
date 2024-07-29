@@ -26,3 +26,6 @@ $execute if data entity @n[type=minecraft:villager] Inventory[6] run tellraw @s 
 $execute if data entity @n[type=minecraft:villager] Inventory[7] run tellraw @s [{"bold":false,"color":"#F5E8C9","italic":false,"text":"• Slot 8: "},{"bold":false,"color":"white","italic":false,"text":"$(count_7)x $(id_7)"}]
 
 tellraw @s {"text":"-----------------------------------------","color":"dark_gray","bold":true,"italic":false}
+
+$execute as @n[type=villager,nbt=!{VillagerData: {profession:"minecraft:none"}},nbt=!{VillagerData: {profession:"minecraft:nitwit"}}] positioned $(job_x) $(job_y) $(job_z) align xyz run summon area_effect_cloud ~ ~ ~ {Duration:200}
+$execute as @n[type=villager,nbt=!{VillagerData: {profession:"minecraft:none"}},nbt=!{VillagerData: {profession:"minecraft:nitwit"}}] positioned $(job_x) $(job_y) $(job_z) align xyz unless entity @e[type=block_display,distance=..0.5] run summon block_display ~ ~ ~ {Glowing:1b,Tags:["job_site"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:glass"}}

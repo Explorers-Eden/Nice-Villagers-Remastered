@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!nvr.name.set] run function nvr:names/get_data
