@@ -1,0 +1,1 @@
+$tellraw @s [$(display_name),{"bold":false,"color":"gray","italic":false,"text":": "},{"bold":false,"color":"gray","italic":true,"text":"$(talking)"}]
