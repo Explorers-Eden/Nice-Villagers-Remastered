@@ -1,1 +1,1 @@
-execute as @e[type=villager,tag=!nvr.quest.set] at @s run function eden:villager_quest/get_data
+execute as @e[type=villager,tag=!nvr.quest.set] at @s run function nvr:quest/get_data

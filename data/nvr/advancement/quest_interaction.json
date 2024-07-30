@@ -12,7 +12,7 @@
           ],
           "entity": {
             "type": "minecraft:interaction",
-            "nbt": "{Tags:[\"nvr.quest.interaction\"]}"
+            "nbt": "{Tags:[\"quest.interaction\"]}"
           }
         }
       }
