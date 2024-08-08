@@ -1,6 +1,10 @@
 execute at @s run data modify storage nvr:villager display_name set from entity @n[type=villager,tag=nvr.mood.neutral] CustomName
 
-function nvr:talking/messages/neutral
+execute store result score $villager_msg nvr.technical run random value 1..2
+
+execute if score $villager_msg nvr.technical matches 1 run function nvr:talking/messages/neutral/day
+execute if score $villager_msg nvr.technical matches 2 run function nvr:talking/messages/neutral/night
+
 function nvr:talking/interaction/send_msg with storage nvr:villager
 
 advancement revoke @s only nvr:talking/neutral
