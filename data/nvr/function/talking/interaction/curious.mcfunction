@@ -11,6 +11,6 @@ execute if score $villager_msg nvr.technical matches 6 run function nvr:talking/
 execute if score $villager_msg nvr.technical matches 7 run function nvr:talking/messages/curious/trial_chamber
 execute if score $villager_msg nvr.technical matches 8 run function nvr:talking/messages/curious/world
 
-function nvr:talking/interaction/send_msg with storage nvr:villager
+execute unless items entity @s weapon.mainhand #nvr:invalid_for_talking run function nvr:talking/interaction/send_msg with storage nvr:villager
 
 advancement revoke @s only nvr:talking/curious
