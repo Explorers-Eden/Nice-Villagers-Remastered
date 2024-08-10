@@ -1,4 +1,4 @@
-execute store result score $name.last.snow nvr.technical run random value 1..375
+execute store result score $name.last.snow nvr.technical run random value 1..380
 
 execute if score $name.last.snow nvr.technical matches 1 run data modify storage nvr:villager last_name set value Snowfall
 execute if score $name.last.snow nvr.technical matches 2 run data modify storage nvr:villager last_name set value Frostwalker
@@ -375,3 +375,8 @@ execute if score $name.last.snow nvr.technical matches 372 run data modify stora
 execute if score $name.last.snow nvr.technical matches 373 run data modify storage nvr:villager last_name set value Winterveil
 execute if score $name.last.snow nvr.technical matches 374 run data modify storage nvr:villager last_name set value Snowrider
 execute if score $name.last.snow nvr.technical matches 375 run data modify storage nvr:villager last_name set value Chillstorm
+execute if score $name.last.snow nvr.technical matches 376 run data modify storage nvr:villager last_name set value Petalblush
+execute if score $name.last.snow nvr.technical matches 377 run data modify storage nvr:villager last_name set value Butterbottom
+execute if score $name.last.snow nvr.technical matches 378 run data modify storage nvr:villager last_name set value Blockwright
+execute if score $name.last.snow nvr.technical matches 379 run data modify storage nvr:villager last_name set value Jasper
+execute if score $name.last.snow nvr.technical matches 380 run data modify storage nvr:villager last_name set value Stonehammer

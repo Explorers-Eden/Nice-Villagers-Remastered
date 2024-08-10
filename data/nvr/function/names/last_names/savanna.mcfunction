@@ -1,4 +1,4 @@
-execute store result score $name.last.savanna nvr.technical run random value 1..375
+execute store result score $name.last.savanna nvr.technical run random value 1..380
 
 execute if score $name.last.savanna nvr.technical matches 1 run data modify storage nvr:villager last_name set value Acaciahorn
 execute if score $name.last.savanna nvr.technical matches 2 run data modify storage nvr:villager last_name set value Amberhoof
@@ -375,3 +375,8 @@ execute if score $name.last.savanna nvr.technical matches 372 run data modify st
 execute if score $name.last.savanna nvr.technical matches 373 run data modify storage nvr:villager last_name set value Goldendust
 execute if score $name.last.savanna nvr.technical matches 374 run data modify storage nvr:villager last_name set value Grassflare
 execute if score $name.last.savanna nvr.technical matches 375 run data modify storage nvr:villager last_name set value Gritveil
+execute if score $name.last.savanna nvr.technical matches 376 run data modify storage nvr:villager last_name set value Petalblush
+execute if score $name.last.savanna nvr.technical matches 377 run data modify storage nvr:villager last_name set value Butterbottom
+execute if score $name.last.savanna nvr.technical matches 378 run data modify storage nvr:villager last_name set value Blockwright
+execute if score $name.last.savanna nvr.technical matches 379 run data modify storage nvr:villager last_name set value Jasper
+execute if score $name.last.savanna nvr.technical matches 380 run data modify storage nvr:villager last_name set value Stonehammer

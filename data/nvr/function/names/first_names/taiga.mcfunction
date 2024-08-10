@@ -1,4 +1,4 @@
-execute store result score $name.first.taiga nvr.technical run random value 1..375
+execute store result score $name.first.taiga nvr.technical run random value 1..398
 
 execute if score $name.first.taiga nvr.technical matches 1 run data modify storage nvr:villager first_name set value Alder
 execute if score $name.first.taiga nvr.technical matches 2 run data modify storage nvr:villager first_name set value Bria
@@ -375,3 +375,26 @@ execute if score $name.first.taiga nvr.technical matches 372 run data modify sto
 execute if score $name.first.taiga nvr.technical matches 373 run data modify storage nvr:villager first_name set value Joni
 execute if score $name.first.taiga nvr.technical matches 374 run data modify storage nvr:villager first_name set value Kael
 execute if score $name.first.taiga nvr.technical matches 375 run data modify storage nvr:villager first_name set value Loma
+execute if score $name.first.taiga nvr.technical matches 376 run data modify storage nvr:villager first_name set value Jasper
+execute if score $name.first.taiga nvr.technical matches 377 run data modify storage nvr:villager first_name set value Jebediah
+execute if score $name.first.taiga nvr.technical matches 378 run data modify storage nvr:villager first_name set value Finn
+execute if score $name.first.taiga nvr.technical matches 379 run data modify storage nvr:villager first_name set value Pipkin
+execute if score $name.first.taiga nvr.technical matches 380 run data modify storage nvr:villager first_name set value Petalblush
+execute if score $name.first.taiga nvr.technical matches 381 run data modify storage nvr:villager first_name set value Jeb
+execute if score $name.first.taiga nvr.technical matches 382 run data modify storage nvr:villager first_name set value Elara
+execute if score $name.first.taiga nvr.technical matches 383 run data modify storage nvr:villager first_name set value Lars
+execute if score $name.first.taiga nvr.technical matches 384 run data modify storage nvr:villager first_name set value Beatrice
+execute if score $name.first.taiga nvr.technical matches 385 run data modify storage nvr:villager first_name set value Butterbottom
+execute if score $name.first.taiga nvr.technical matches 386 run data modify storage nvr:villager first_name set value Belford
+execute if score $name.first.taiga nvr.technical matches 387 run data modify storage nvr:villager first_name set value Will
+execute if score $name.first.taiga nvr.technical matches 388 run data modify storage nvr:villager first_name set value Phineas
+execute if score $name.first.taiga nvr.technical matches 389 run data modify storage nvr:villager first_name set value Bartholomew
+execute if score $name.first.taiga nvr.technical matches 390 run data modify storage nvr:villager first_name set value Humphrey
+execute if score $name.first.taiga nvr.technical matches 391 run data modify storage nvr:villager first_name set value Jezebel
+execute if score $name.first.taiga nvr.technical matches 392 run data modify storage nvr:villager first_name set value Pip
+execute if score $name.first.taiga nvr.technical matches 393 run data modify storage nvr:villager first_name set value Clunk
+execute if score $name.first.taiga nvr.technical matches 394 run data modify storage nvr:villager first_name set value Brunhilda
+execute if score $name.first.taiga nvr.technical matches 395 run data modify storage nvr:villager first_name set value Ishmael
+execute if score $name.first.taiga nvr.technical matches 396 run data modify storage nvr:villager first_name set value Ellie
+execute if score $name.first.taiga nvr.technical matches 397 run data modify storage nvr:villager first_name set value Bronn
+execute if score $name.first.taiga nvr.technical matches 398 run data modify storage nvr:villager first_name set value Anya
