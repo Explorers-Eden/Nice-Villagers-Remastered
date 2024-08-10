@@ -1,4 +1,4 @@
-execute store result score $village.name nvr.technical run random value 1..104
+execute store result score $village.name nvr.technical run random value 1..109
 data modify storage nvr:village color set value D5E0DD
 
   execute if score $village.name nvr.technical matches 1 run data modify storage nvr:village name set value "Wheatford"
@@ -105,3 +105,8 @@ execute if score $village.name nvr.technical matches 101 run data modify storage
 execute if score $village.name nvr.technical matches 102 run data modify storage nvr:village name set value "The Bobbing Isles"
 execute if score $village.name nvr.technical matches 103 run data modify storage nvr:village name set value "Blossomhearth"
 execute if score $village.name nvr.technical matches 104 run data modify storage nvr:village name set value "Subterra"
+execute if score $village.name nvr.technical matches 105 run data modify storage nvr:village name set value "Brunston"
+execute if score $village.name nvr.technical matches 106 run data modify storage nvr:village name set value "Sonnenblumen"
+execute if score $village.name nvr.technical matches 107 run data modify storage nvr:village name set value "Bloomfields"
+execute if score $village.name nvr.technical matches 108 run data modify storage nvr:village name set value "Oakhaven"
+execute if score $village.name nvr.technical matches 109 run data modify storage nvr:village name set value "Willow Creek"
