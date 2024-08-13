@@ -1,6 +1,9 @@
 ## run inital schedules
 function nvr:schedules/on_load
 
+## add scoreboard for chest opening
+scoreboard objectives add nvr.open.chest minecraft.custom:minecraft.open_chest
+
 ## add technical scoreboard
 scoreboard objectives add nvr.technical dummy
 

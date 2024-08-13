@@ -1,0 +1,14 @@
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:rabbit_stew",count:1}},distance=..0.75] run function nvr:master_trades/butcher/rabbit_stew
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:cooked_chicken",count:1}},distance=..0.75] run function nvr:master_trades/butcher/cooked_chicken
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:cooked_porkchop",count:1}},distance=..0.75] run function nvr:master_trades/butcher/cooked_porkchop
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:cooked_beef",count:1}},distance=..0.75] run function nvr:master_trades/butcher/cooked_beef
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:cooked_mutton",count:1}},distance=..0.75] run function nvr:master_trades/butcher/cooked_mutton
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:cooked_rabbit",count:1}},distance=..0.75] run function nvr:master_trades/butcher/cooked_rabbit
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:chicken",count:1}},distance=..0.75] run function nvr:master_trades/butcher/chicken
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:porkchop",count:1}},distance=..0.75] run function nvr:master_trades/butcher/porkchop
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:beef",count:1}},distance=..0.75] run function nvr:master_trades/butcher/beef
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:mutton",count:1}},distance=..0.75] run function nvr:master_trades/butcher/mutton
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:rabbit",count:1}},distance=..0.75] run function nvr:master_trades/butcher/rabbit
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:coal",count:1}},distance=..0.75] run function nvr:master_trades/butcher/coal
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:charcoal",count:1}},distance=..0.75] run function nvr:master_trades/butcher/charcoal
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:bowl",count:1}},distance=..0.75] run function nvr:master_trades/butcher/bowl
