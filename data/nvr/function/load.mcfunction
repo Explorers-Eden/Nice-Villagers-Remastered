@@ -17,6 +17,10 @@ scoreboard objectives add villager_data trigger {"text": "Villager Data"}
 scoreboard objectives add nvr.quest.item.count dummy
 scoreboard objectives add nvr.quest.completed.count dummy
 
+## Wandering Trader Team
+team add wandering_trader
+team modify wandering_trader color blue
+
 ## set init dummy values for trigger command
 data modify storage nvr:villager count_0 set value 0
 data modify storage nvr:villager count_1 set value 0
