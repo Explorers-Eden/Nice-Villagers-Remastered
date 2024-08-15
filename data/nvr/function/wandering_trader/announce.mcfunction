@@ -55,10 +55,10 @@ $execute as @a if predicate nvr:entity/is_nearby_64 if score $trader.msg nvr.tec
 
 execute as @a if predicate nvr:entity/is_nearby_64 run playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
 
-summon firework_rocket ~ ~5 ~ {LifeTime:40,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;1222911],fade_colors:[I;16738591]},{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;16769577],fade_colors:[I;1629766]}]}}}}
-summon firework_rocket ~3 ~5 ~ {LifeTime:35,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
-summon firework_rocket ~ ~5 ~3 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
-summon firework_rocket ~-3 ~5 ~ {LifeTime:45,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
-summon firework_rocket ~ ~5 ~-3 {LifeTime:50,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
+summon firework_rocket ~ ~10 ~ {LifeTime:40,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,has_trail:true,colors:[I;1222911],fade_colors:[I;16738591]},{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;16769577],fade_colors:[I;1629766]}]}}}}
+summon firework_rocket ~3 ~10 ~ {LifeTime:35,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
+summon firework_rocket ~ ~10 ~3 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
+summon firework_rocket ~-3 ~10 ~ {LifeTime:45,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
+summon firework_rocket ~ ~10 ~-3 {LifeTime:50,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",has_twinkle:true,has_trail:true,colors:[I;1629766],fade_colors:[I;5095167]}]}}}}
 
 effect give @s minecraft:glowing 10 0 true
