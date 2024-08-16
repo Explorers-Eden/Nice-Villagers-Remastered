@@ -3,12 +3,8 @@
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:spruce_sapling"
-            }
-          }
+        "item": {
+          "items": "minecraft:spruce_sapling"
         },
         "entity": [
           {

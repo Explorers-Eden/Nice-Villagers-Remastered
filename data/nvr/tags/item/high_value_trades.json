@@ -4,7 +4,11 @@
       "minecraft:turtle_helmet",
       "minecraft:iron_horse_armor",
       "minecraft:golden_horse_armor",
-      "minecraft:diamond_horse_armor"
+      "minecraft:diamond_horse_armor",
+      "minecraft:golden_apple",
+      "minecraft:sponge",
+      "minecraft:wet_sponge",
+      "minecraft:tadpole_bucket"
 
     ]
   }

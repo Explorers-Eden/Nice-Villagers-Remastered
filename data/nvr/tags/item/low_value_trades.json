@@ -7,7 +7,19 @@
       "minecraft:chainmail_helmet",
       "minecraft:chainmail_chestplate",
       "minecraft:chainmail_leggings",
-      "minecraft:chainmail_boots"
+      "minecraft:chainmail_boots",
+      "minecraft:chicken",
+      "minecraft:porkchop",
+      "minecraft:beef",
+      "minecraft:mutton",
+      "minecraft:rabbit",
+      "minecraft:coal",
+      "minecraft:charcoal",
+      "minecraft:bowl",
+      "minecraft:chorus_fruit",
+      "minecraft:glow_berries",
+      "minecraft:milk_bucket",
+      "minecraft:sea_pickle"
     ]
   }
   

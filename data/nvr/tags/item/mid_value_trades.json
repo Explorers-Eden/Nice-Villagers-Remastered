@@ -6,7 +6,32 @@
       "minecraft:golden_helmet",
       "minecraft:golden_chestplate",
       "minecraft:golden_leggings",
-      "minecraft:golden_boots"
+      "minecraft:golden_boots",
+      "minecraft:rabbit_stew",
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_mutton",
+      "minecraft:cooked_rabbit",
+      "minecraft:bamboo",
+      "minecraft:sugar_cane",
+      "minecraft:azalea",
+      "minecraft:birch_sapling",
+      "minecraft:brown_mushroom",
+      "minecraft:cherry_sapling",
+      "minecraft:dark_oak_sapling",
+      "minecraft:flowering_azalea",
+      "minecraft:jungle_sapling",
+      "minecraft:mangrove_propagule",
+      "minecraft:oak_sapling",
+      "minecraft:red_mushroom",
+      "minecraft:spruce_sapling",
+      "minecraft:prismarine_crystals",
+      "minecraft:prismarine_shard",
+      "minecraft:pufferfish_bucket",
+      "minecraft:salmon_bucket",
+      "minecraft:cod_bucket",
+      "minecraft:tropical_fish_bucket"
     ]
   }
   
