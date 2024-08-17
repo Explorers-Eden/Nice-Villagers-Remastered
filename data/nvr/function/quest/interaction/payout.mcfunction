@@ -6,7 +6,7 @@ execute as @e[type=interaction,tag=quest.interaction] at @s if data entity @s in
 $scoreboard players remove @s nvr.quest.item.count $(interaction_count)
 execute store result storage nvr:villager reduced_item_count int 1 run scoreboard players get @s nvr.quest.item.count
 
-function nvr:quest/interaction/remove_items with storage nvr:villager
+#function nvr:quest/interaction/remove_items with storage nvr:villager
 
-execute unless score @s nvr.quest.item.count matches 0 run function nvr:quest/interaction/remove_items with storage nvr:villager
-execute if score @s nvr.quest.item.count matches 0 run function nvr:quest/interaction/remove_items_air with storage nvr:villager
+execute if score @s nvr.quest.item.count matches 1.. run function nvr:quest/interaction/remove_items with storage nvr:villager
+execute if score @s nvr.quest.item.count matches ..0 run function nvr:quest/interaction/remove_items_air with storage nvr:villager

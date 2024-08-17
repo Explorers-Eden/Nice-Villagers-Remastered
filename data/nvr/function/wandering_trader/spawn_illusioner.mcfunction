@@ -4,3 +4,4 @@ execute at @s run tp @n[type=wandering_trader,tag=nvr.illusioner] ~ -100 ~
 execute at @s run kill @n[type=wandering_trader,tag=nvr.illusioner]
 
 advancement revoke @s only nvr:illusioner
+advancement grant @p only nvr:progression/illusioner
