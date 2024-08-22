@@ -1,1 +1,1 @@
-execute as @e[type=villager,tag=!nvr.quest.set] at @s run function nvr:quest/get_data
+execute as @e[type=villager,tag=!nvr.quest.set,tag=!nvr.outpost.desert,tag=!nvr.outpost.jungle,tag=!nvr.outpost.plains,tag=!nvr.outpost.savanna,tag=!nvr.outpost.snow,tag=!nvr.outpost.swamp,tag=!nvr.outpost.taiga] at @s run function nvr:quest/get_data
