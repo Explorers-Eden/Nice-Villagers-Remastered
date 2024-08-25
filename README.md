@@ -6,13 +6,14 @@
 <br><br>
 
 ## ⭐ Features
-- Villagers can be leashed making transportation easier
+- Villagers can be leashed. Making transportation easier
 - Villagers & Wandering Traders have randomized names based on their type
-- Villages have randomized names based on the types of Villagers which live in their
-- Trigger command for Villager Infos (Inventory, Workebench, etc.) which also highlights the workbench the Villager has claimed
-- Opening chests near a villager gives him a bit of bad reputation towards the player (Why should only Piglins be angry if you take their stuff?!)
+- Villages have randomized names based on the types of Villagers which live in there
+- Trigger command for Villager Infos (Inventory, lvl, etc.) which also highlights the workbench the Villager has claimed
+- Opening chests near a Villager gives it a bit of bad reputation towards the player (Why should only Piglins be angry if you take their stuff?!)
 - Villagers have better or worse prices depending on whether they have a bed and/or meeting point (bell)
 - Villagers & Iron Golems heal over time when they are near their Village centre (Bell) when it's daytime
+- Some Villagers have small Fetch Quests, requiring the player to bring the items shown to it for a small reward.
 - Wandering Traders sell Mobheads (They do have noteblock sounds. Fancy, right?!)
 - Wandering Traders have a chance to sell enchanted treasure books
 - Wandering Traders announce their presence with an neat, randomized message and fireworks. They also glow for a short period of time when spawning
